@@ -1,5 +1,7 @@
 # vtecplotter
 Program designed to plot vTEC values with GNUplot.
+Written by Joaquin Escayo.
+
 
 vTEC files must be in this format:
 
