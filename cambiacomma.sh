@@ -13,7 +13,6 @@ total=0
 for f in $directorio
 do
 	echo "Procesando archivo $f"
-	echo $f
 	sed -e "s/\,/\./" $f > $f.tmp
 	mv $f.tmp $f
 	total=$((total+1))
